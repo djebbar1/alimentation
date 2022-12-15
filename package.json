@@ -1,0 +1,16 @@
+{
+  "name": "trackacolories",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sassBuild": "sass assets/scss/app.scss assets/css/app.min.css --watch --style=compressed"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.56.2"
+  }
+}
