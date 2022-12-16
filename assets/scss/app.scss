@@ -1,8 +1,81 @@
+
+
+@import 'variables.scss';
+@import './components/header.scss';
+
+@import './components/dataUser.scss';
+
 body{
-    background-color: pink;
+    background-color: grey;
 }
 h1{
     color: blue;
     font-weight: bold;
     font-size: 25px;
 }
+    .containerApp{
+        display:flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    main{
+        flex: 1;
+        overflow-y: scroll;
+    }
+    .doughnut{
+        width: 400px;
+        margin: auto;
+        position: relative;
+        .Kcal{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            color: green;
+            font-size: 1.3rem;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .custom-shape-divider-bottom-1671195942 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-bottom-1671195942 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 54px;
+    }
+    
+    .custom-shape-divider-bottom-1671195942 .shape-fill {
+        fill: #FFFFFF;
+    }
+    .food{
+        background: white;
+        border-radius: 20px;
+        box-shadow: 5px 4px 8px -1px black;
+        margin-bottom: 10px;
+        padding: 2rem;
+        .kgFood{
+            color:grey;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
